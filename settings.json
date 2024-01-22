@@ -1,0 +1,22 @@
+{
+    "general": {
+        "random_state": 42,
+        "infer_size": 0.1,
+        "data_dir": "data",
+        "models_dir": "models",
+        "results_dir": "results"
+    },
+    "train": {
+        "table_name": "iris_train_data.csv",
+        "test_size": 0.2,
+        "nn_architecture": [4, 16, 32, 16, 3],
+        "batch_size": 1,
+        "lr": 0.001,
+        "epochs": 30,
+        "model_name": "trained_model.pth"
+    },
+    "inference": {
+        "inp_table_name": "iris_inference_data.csv",
+        "results_name": "inference_results.csv"
+    }
+}
