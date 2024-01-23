@@ -83,7 +83,7 @@ The data used is the [Iris dataset](https://en.wikipedia.org/wiki/Iris_flower_da
 ## Model
 In this project, a neural network classifier is implemented. 
 
-* Input Layer: 4 features.
+* Input Layer: 4 features
 * Hidden Layer: 3 layers with 64 neurons 
 * Output Layer: 3 neurons, each outputting a probability
 * Activation Functions: ReLU for hidden layers and Softmax for the output layer
@@ -131,7 +131,7 @@ or with this one if you are using Windows Powershell:
 ```bash
 docker run -v ${PWD}/results:/app/results inference_image
 ```
-This will create a "results" folder in your Homework8 folder and add the inference results to it in a .csv file. If you don't want to save the results locally, you can just run the container by pressing the run button or typing `docker run inference_image` in your Terminal/Powershell. Regardless of whether you want to save the file or not, you will be able to see the inference results in your Terminal/Powershell once the container has finished running.
+This will create a "results" folder in your "Homework8" folder and add the inference results to it in a .csv file. If you don't want to save the results locally, you can just run the container by pressing the run button or typing `docker run inference_image` in your Terminal/Powershell. Regardless of whether you want to save the file or not, you will be able to see the inference results in your Terminal/Powershell once the container has finished running.
 
 Alternatively, you may run the "run.py" script in your IDE. Yet again, you may run into issues when installing the required packages depending on your interpreter version.
 
